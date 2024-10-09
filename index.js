@@ -1,5 +1,5 @@
 function submitData(name, email){
-    console.log('dunction submitdt:',name,email)
+    //console.log('Function submit:',name,email)
     return fetch('http://localhost:3000/users',{
         method: 'POST',
         headers:{
