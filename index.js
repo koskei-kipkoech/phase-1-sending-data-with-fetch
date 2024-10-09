@@ -26,4 +26,5 @@ function submitData(name, email){
         p.textContent =`Error: ${error.message}`;
         document.body.appendChild(p)
     })
-}itch
+}
+
